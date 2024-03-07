@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav .active {
+    border-radius: 20px;
+    border: 1px solid #E20000;
+}
+
+footer {
+    color: white;
+    font-weight: 100;
+}
+
+footer a {
+    font-weight: 200;
+}
+
+footer .fa-github {
+    font-size: 38px;
+}
+
+footer .fa-linkedin-in {
+    font-size: 28px;
+    background-color: white;
+    color: #E20000;
+    padding: 8px 8px 4px 8px;
+    margin-left: 10px;
+}
+
+footer .fa-whatsapp {
+    color: white;
+    font-size: 31px;
+    position: fixed;
+    right: 70px;
+    bottom: 0;
+    background-color: #370a6d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#projects footer, #about footer {
+    color: #E20000;
+}
+
+footer a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 36px;
+    color: #E20000;
+}
+
+p {
+    font-weight: light;
+    color: #6a6a6a;
+}
+
+.btn-red {
+    background-color: #E20000;
+    color: white;
+    font-weight: 200;
+}
+
+.btn-red:hover {
+    background-color: #370a6d;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-white:hover {
+    background-color: #370a6d;
+    color: white;
+}
+
+.link-red {
+    color: #E20000;
+}
+
+#projects {
+    background-image: url("/images/fondo-proyectos.png");
+}
+
+#contact, #home {
+    background-image: url("/images/fondo-contacto.png");
+    background-position: bottom;
+}
+
+#contact textarea {
+    height: 150px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+.project img {
+    height: 217px;
+}
+
+.project h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+
+.project p {
+    font-size: 14px;
+    height: 100px;
+}
+
+.div-rocket {
+    height: 410px;
+}
+
+.div-rocket img {
+    height: 400px;
+}
+
+.div-rocket img:hover {
+    height: 410px;
+}
+
+#home p {
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+#stack {
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+
+#stack h2 {
+    color: white;
+    font-size: 24px;
+}
+
+#stack h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+#stack .tech {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#stack .tech i {
+    font-size: 60px;
+    color: #6a6a6a;
+}
+
+#education h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #370a6d;
+}
+
+#education h3 {
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#education h4 {
+    font-size: 17px;
+    color: #370a6d;
+}
+
+#education h5 {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+.filter-black {
+    -webkit-filter: brightness(0);
+    filter: brightness(0);
+}
+
+.baw {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#education .baw:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+#langs {
+    background-color: #eee;
+}
+
+#langs .card-langs {
+    border-radius: 15px;
+}
+
+#langs .card {
+    background-color: #370a6d;
+    border-radius: 15px;
+    padding: 40px 0;
+    height: 182px;
+}
+
+#langs h2 {
+    font-size: 16px;
+}
+
+#langs i {
+    font-size: 80px;
+    color: white;
+}
+
+#langs ul {
+    list-style-type: none;
+    color: #282828;
+    font-size: 14px;
+    padding: 0;
+}
