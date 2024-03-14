@@ -91,11 +91,11 @@ p {
 }
 
 #projects {
-    background-image: url("/images/fondo-proyectos.png");
+    background-image: url("../images/fondo-proyectos.png");
 }
 
 #contact, #home {
-    background-image: url("/images/fondo-contacto.png");
+    background-image: url("../images/fondo-contacto.png");
     background-position: bottom;
 }
 
